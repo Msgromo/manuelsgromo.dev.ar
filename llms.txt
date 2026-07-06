@@ -1,22 +1,35 @@
 # Manuel Sgromo
 
-Analista Programador / Analista de Sistemas, con más de 5 años de experiencia en desarrollo backend, APIs REST y sistemas de gestión con .NET.
+Analista de Sistemas y Analista Programador, argentino, radicado en Sevilla, España. Especializado en desarrollo backend con .NET, C#, SQL Server y APIs REST: sistemas internos, análisis de datos, informes y soluciones de gestión.
+
+Sitio: https://manuelsgromo.dev.ar
 
 ## Experiencia
 
-- Analista Programador en Aplicaciones Estadísticas y Consultoría, Sevilla, España (mayo 2025 - presente). Desarrollo y mantenimiento de sistemas internos: lógica de negocio, cálculos de precios, consultas SQL, informes y estadísticas.
-- Programador en la Municipalidad de General Pueyrredon, Mar del Plata, Argentina (hasta febrero 2021). Desarrollo de Historia Clínica Digital, Portal de Pacientes, APIs REST y formularios de habilitaciones comerciales.
+- Analista Programador en Aplicaciones Estadísticas y Consultoría (AEC), Sevilla, España (mayo 2025 - actualidad). Desarrollo y mantenimiento de sistemas internos para gestión de clientes y análisis de datos; diseño y optimización de consultas SQL complejas para informes y métricas; automatización de reportes y dashboards estadísticos; integración de módulos con VB.NET, C#, SQL Server y servicios web.
+- Programador en la Municipalidad de General Pueyrredon, Mar del Plata, Argentina (febrero 2021 - febrero 2025). Desarrollo y mantenimiento de la Historia Clínica Digital (HIS) del municipio; desarrollo del Portal de Pacientes para gestión de turnos online; construcción de un servicio API REST que alimenta distintos aplicativos municipales; desarrollo y mantenimiento de formularios de habilitaciones comerciales.
 
 ## Stack técnico
 
-Backend: C#, .NET, ASP.NET, Razor Pages, Entity Framework Core, APIs REST, Python, VB, PHP.
+Backend: C#, .NET, VB.NET, ASP.NET, Razor Pages, Entity Framework Core, APIs REST, Python, PHP.
 Bases de datos: SQL Server, PostgreSQL, MySQL, SQLite.
 Frontend: HTML, CSS, JavaScript, TypeScript, React, Astro.
 Herramientas: Docker, Git, Linux.
 
+## Proyectos destacados
+
+- Portal de Pacientes (Municipalidad de General Pueyrredon): plataforma web para que los vecinos gestionen turnos médicos online.
+- Historia Clínica Digital (HIS): funcionalidades para el sistema de salud municipal.
+- API REST municipal: servicio que alimenta múltiples aplicativos del municipio.
+- Formularios de habilitaciones comerciales.
+
 ## Formación
 
-Tecnicatura en Análisis de Sistemas (2024).
+Tecnicatura en Análisis de Sistemas — Instituto Superior de Enseñanza Técnica (ISET), Mar del Plata, Argentina (2022 - 2024).
+
+## Idiomas
+
+Español (nativo), Inglés (intermedio).
 
 ## Contacto
 
