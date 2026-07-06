@@ -1,0 +1,25 @@
+# Manuel Sgromo
+
+Analista Programador / Analista de Sistemas, con más de 5 años de experiencia en desarrollo backend, APIs REST y sistemas de gestión con .NET.
+
+## Experiencia
+
+- Analista Programador en Aplicaciones Estadísticas y Consultoría, Sevilla, España (mayo 2025 - presente). Desarrollo y mantenimiento de sistemas internos: lógica de negocio, cálculos de precios, consultas SQL, informes y estadísticas.
+- Programador en la Municipalidad de General Pueyrredon, Mar del Plata, Argentina (hasta febrero 2021). Desarrollo de Historia Clínica Digital, Portal de Pacientes, APIs REST y formularios de habilitaciones comerciales.
+
+## Stack técnico
+
+Backend: C#, .NET, ASP.NET, Razor Pages, Entity Framework Core, APIs REST, Python, VB, PHP.
+Bases de datos: SQL Server, PostgreSQL, MySQL, SQLite.
+Frontend: HTML, CSS, JavaScript, TypeScript, React, Astro.
+Herramientas: Docker, Git, Linux.
+
+## Formación
+
+Tecnicatura en Análisis de Sistemas (2024).
+
+## Contacto
+
+Email: mansgromo@gmail.com
+LinkedIn: https://www.linkedin.com/in/manuelsgromo/
+GitHub: https://github.com/Msgromo
