@@ -8,7 +8,7 @@
     <meta name="author" content="Manuel Sgromo">
     <meta name="theme-color" content="#111917">
     <meta property="og:type" content="profile">
-    <meta property="og:site_name" content="manuelsgromo.dev.ar">
+    <meta property="og:site_name" content="Manuel Sgromo">
     <meta property="og:title" content="Manuel Sgromo — Analista Programador .NET">
     <meta property="og:description" content="Desarrollo backend, sistemas internos, APIs REST y soluciones de gestión con .NET y SQL Server. Sevilla, España.">
     <link rel="canonical" href="https://manuelsgromo.dev.ar/">
@@ -25,6 +25,8 @@
     <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="alternate" type="text/markdown" href="llms.txt" title="Resumen para LLMs">
     <link rel="stylesheet" href="css/site.css">
     <meta name="google-site-verification" content="AX-vUv36ZDB27n9v82sICrds-xEvrTtyiPdn1zYFrWY" />
     <meta name="msvalidate.01" content="DA29E1E348F632E181BAA5E2B1E90D96" />
@@ -32,56 +34,94 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Manuel Sgromo",
-      "givenName": "Manuel",
-      "familyName": "Sgromo",
-      "jobTitle": "Analista Programador",
-      "description": "Analista Programador especializado en desarrollo backend con .NET, C#, SQL Server y APIs REST. Sistemas internos, informes y soluciones de gestión.",
-      "url": "https://manuelsgromo.dev.ar",
-      "image": "https://manuelsgromo.dev.ar/og-image.png",
-      "email": "mansgromo@gmail.com",
-      "nationality": {
-        "@type": "Country",
-        "name": "Argentina"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/in/manuelsgromo/",
-        "https://github.com/Msgromo"
-      ],
-      "worksFor": {
-        "@type": "Organization",
-        "name": "Aplicaciones Estadísticas y Consultoría",
-        "location": {
-          "@type": "Place",
+      "@graph": [
+        {
+          "@type": "ProfilePage",
+          "@id": "https://manuelsgromo.dev.ar/#profilepage",
+          "url": "https://manuelsgromo.dev.ar/",
+          "name": "Manuel Sgromo — Analista Programador .NET en Sevilla",
+          "inLanguage": "es",
+          "isPartOf": { "@id": "https://manuelsgromo.dev.ar/#website" },
+          "mainEntity": { "@id": "https://manuelsgromo.dev.ar/#person" },
+          "dateModified": "2026-07-08"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://manuelsgromo.dev.ar/#website",
+          "url": "https://manuelsgromo.dev.ar/",
+          "name": "Manuel Sgromo",
+          "description": "Portfolio de Manuel Sgromo, Analista Programador especializado en .NET, C#, SQL Server y APIs REST.",
+          "inLanguage": "es",
+          "publisher": { "@id": "https://manuelsgromo.dev.ar/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://manuelsgromo.dev.ar/#person",
+          "name": "Manuel Sgromo",
+          "givenName": "Manuel",
+          "familyName": "Sgromo",
+          "jobTitle": "Analista Programador",
+          "description": "Analista Programador especializado en desarrollo backend con .NET, C#, SQL Server y APIs REST. Sistemas internos, informes y soluciones de gestión.",
+          "url": "https://manuelsgromo.dev.ar",
+          "mainEntityOfPage": { "@id": "https://manuelsgromo.dev.ar/#profilepage" },
+          "image": "https://manuelsgromo.dev.ar/og-image.png",
+          "email": "mansgromo@gmail.com",
+          "nationality": {
+            "@type": "Country",
+            "name": "Argentina"
+          },
+          "sameAs": [
+            "https://www.linkedin.com/in/manuelsgromo/",
+            "https://github.com/Msgromo"
+          ],
+          "hasOccupation": {
+            "@type": "Occupation",
+            "name": "Analista Programador",
+            "occupationLocation": {
+              "@type": "City",
+              "name": "Sevilla",
+              "containedInPlace": {
+                "@type": "Country",
+                "name": "España"
+              }
+            },
+            "skills": ".NET, C#, VB.NET, ASP.NET, SQL Server, PostgreSQL, APIs REST, Entity Framework Core, Docker"
+          },
+          "worksFor": {
+            "@type": "Organization",
+            "name": "Aplicaciones Estadísticas y Consultoría",
+            "location": {
+              "@type": "Place",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Sevilla",
+                "addressRegion": "Andalucía",
+                "addressCountry": "ES"
+              }
+            }
+          },
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "Instituto Superior de Enseñanza Técnica (ISET)",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Mar del Plata",
+              "addressCountry": "AR"
+            }
+          },
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Sevilla",
             "addressRegion": "Andalucía",
             "addressCountry": "ES"
-          }
+          },
+          "knowsLanguage": [
+            { "@type": "Language", "name": "Español" },
+            { "@type": "Language", "name": "Inglés" }
+          ],
+          "knowsAbout": [".NET", "C#", "VB.NET", "ASP.NET", "Razor Pages", "SQL Server", "PostgreSQL", "APIs REST", "Entity Framework Core", "Docker", "Análisis de datos", "Optimización de precios"]
         }
-      },
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Instituto Superior de Enseñanza Técnica (ISET)",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Mar del Plata",
-          "addressCountry": "AR"
-        }
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Sevilla",
-        "addressRegion": "Andalucía",
-        "addressCountry": "ES"
-      },
-      "knowsLanguage": [
-        { "@type": "Language", "name": "Español" },
-        { "@type": "Language", "name": "Inglés" }
-      ],
-      "knowsAbout": [".NET", "C#", "VB.NET", "ASP.NET", "Razor Pages", "SQL Server", "PostgreSQL", "APIs REST", "Entity Framework Core", "Docker", "Análisis de datos", "Optimización de precios"]
+      ]
     }
     </script>
 </head>
@@ -129,7 +169,7 @@
                                 <path d="m5 12h14m-6-6 6 6-6 6"></path>
                             </svg>
                         </a>
-                        <a class="button button-secondary" href="https://www.linkedin.com/in/manuelsgromo/" target="_blank" rel="noreferrer">
+                        <a class="button button-secondary" href="https://www.linkedin.com/in/manuelsgromo/" target="_blank" rel="me noreferrer">
                             LinkedIn
                             <svg viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M7 17 17 7M7 7h10v10"></path>
@@ -141,7 +181,7 @@
                                 <path d="M12 4v12m-6-6 6 6 6-6M5 20h14"></path>
                             </svg>
                         </a>
-                        <a class="icon-button" href="https://github.com/Msgromo" target="_blank" rel="noreferrer" aria-label="Perfil de GitHub de Manuel">
+                        <a class="icon-button" href="https://github.com/Msgromo" target="_blank" rel="me noreferrer" aria-label="Perfil de GitHub de Manuel">
                             <svg viewBox="0 0 24 24" aria-hidden="true">
                                 <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3.28-.36 6.72-1.61 6.72-7.25A5.65 5.65 0 0 0 19.22 3.3 5.3 5.3 0 0 0 19.08.3S17.9-.08 15 1.8a13.4 13.4 0 0 0-6 0C6.1-.08 4.92.3 4.92.3a5.3 5.3 0 0 0-.14 3A5.65 5.65 0 0 0 3.28 7.3c0 5.6 3.44 6.85 6.72 7.25A4.8 4.8 0 0 0 9 18v4M9 19c-3 .92-3-1.5-4-2"></path>
                             </svg>
@@ -278,23 +318,21 @@
                 <div class="projects-grid">
                     <article class="project-card">
                         <div class="project-number">01</div>
-                        <div class="project-content">
-                            <div class="project-kicker">Proyecto personal · Gestión</div>
-                            <h3>Julia</h3>
-                            <p>Aplicación y asistente para centralizar la gestión de turnos, conectando conversaciones de
-                                WhatsApp con la disponibilidad de Google Calendar.</p>
-                            <p class="project-value"><span>Valor</span> Reduce tareas manuales y concentra la coordinación de
-                                citas en un flujo integrado.</p>
-                            <ul class="tag-list" aria-label="Tecnologías de Julia">
-                                <li>.NET</li>
-                                <li>Razor Pages</li>
-                                <li>SQLite</li>
-                                <li>PostgreSQL</li>
-                                <li>Docker</li>
-                                <li>WhatsApp Cloud API</li>
-                                <li>Google Calendar API</li>
-                            </ul>
-                        </div>
+                        <div class="project-kicker">Proyecto personal · Gestión</div>
+                        <h3>Julia</h3>
+                        <p>Aplicación y asistente para centralizar la gestión de turnos, conectando conversaciones de
+                            WhatsApp con la disponibilidad de Google Calendar.</p>
+                        <p class="project-value"><span>Valor</span> Reduce tareas manuales y concentra la coordinación de
+                            citas en un flujo integrado.</p>
+                        <ul class="tag-list" aria-label="Tecnologías de Julia">
+                            <li>.NET</li>
+                            <li>Razor Pages</li>
+                            <li>SQLite</li>
+                            <li>PostgreSQL</li>
+                            <li>Docker</li>
+                            <li>WhatsApp Cloud API</li>
+                            <li>Google Calendar API</li>
+                        </ul>
                     </article>
 
                     <article class="project-card">
@@ -448,8 +486,8 @@
                         <div class="contact-actions">
                             <a class="contact-email" href="mailto:mansgromo@gmail.com"><span>Escríbeme a</span><strong>mansgromo@gmail.com</strong><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12h14m-6-6 6 6-6 6"></path></svg></a>
                             <div class="social-links">
-                                <a href="https://www.linkedin.com/in/manuelsgromo/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
-                                <a href="https://github.com/Msgromo" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+                                <a href="https://www.linkedin.com/in/manuelsgromo/" target="_blank" rel="me noreferrer">LinkedIn <span>↗</span></a>
+                                <a href="https://github.com/Msgromo" target="_blank" rel="me noreferrer">GitHub <span>↗</span></a>
                                 <a href="Manuel_Sgromo.pdf" download>Descargar CV <span>↓</span></a>
                             </div>
                         </div>
