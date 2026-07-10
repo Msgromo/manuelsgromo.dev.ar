@@ -1,8 +1,16 @@
 # Manuel Sgromo
 
-Analista de Sistemas y Analista Programador, argentino, radicado en Sevilla, España. Especializado en desarrollo backend con .NET, C#, SQL Server y APIs REST: sistemas internos, análisis de datos, informes y soluciones de gestión.
+> Analista de Sistemas y Analista Programador, argentino, radicado en Sevilla, España. Especializado en desarrollo backend con .NET, C#, SQL Server y APIs REST: sistemas internos, análisis de datos, informes y soluciones de gestión.
 
-Sitio: https://manuelsgromo.dev.ar
+## Enlaces principales
+
+- [Sitio web](https://manuelsgromo.dev.ar/): Portfolio profesional completo
+- [Sobre mí](https://manuelsgromo.dev.ar/#sobre-mi): Perfil profesional
+- [Experiencia](https://manuelsgromo.dev.ar/#experiencia): Trayectoria laboral detallada
+- [Proyectos](https://manuelsgromo.dev.ar/#proyectos): Proyectos destacados
+- [Tecnologías](https://manuelsgromo.dev.ar/#tecnologias): Stack técnico completo
+- [Formación](https://manuelsgromo.dev.ar/#formacion): Educación y estudios
+- [CV en PDF](https://manuelsgromo.dev.ar/Manuel_Sgromo.pdf): Currículum descargable
 
 ## Experiencia
 
@@ -33,6 +41,6 @@ Español (nativo), Inglés (intermedio).
 
 ## Contacto
 
-Email: mansgromo@gmail.com
-LinkedIn: https://www.linkedin.com/in/manuelsgromo/
-GitHub: https://github.com/Msgromo
+- [Email](mailto:mansgromo@gmail.com): mansgromo@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/manuelsgromo/): Perfil profesional
+- [GitHub](https://github.com/Msgromo): Repositorios y proyectos públicos
